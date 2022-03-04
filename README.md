@@ -1,29 +1,40 @@
-# Nuxt 3 Minimal Starter
+# Ubiquitous-doodling
+
+this is build on nuxt3js which is not production ready. the goal here is to use this as a template for future reference. topics include:
+
+- vue 3
+- tailwind
+- mdx
+- nuxt 3 (check the web! not for production)
+- trois (threejs wrapper) 
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
-## Setup
+## preview locally
 
-Make sure to install the dependencies
+git clone project
 
+`yarn install` and visit [http://localhost:3000](http://localhost:3000)
+## installation guide to replicate
+
+### nuxt 3
+to install nuxt just run 
 ```bash
+npx nuxi init <appname>
+cd <appname>
 yarn install
 ```
 
-## Development
+### tailwind
 
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
+[Guide](https://developer.school/tutorials/create-your-first-nuxt-3-app-with-tailwind)
 
 ```bash
-yarn build
+
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+npx tailwindcss init -p
+
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+

@@ -5,6 +5,10 @@ const router = useRouter();
 const navLinks = router.getRoutes();
 
 console.log(navLinks);
+
+definePageMeta({
+  layout:"custom",
+});
 </script>
 
 <template>
@@ -12,7 +16,7 @@ console.log(navLinks);
     <h1>home</h1>
     <ul>
       <li v-for="link in navLinks" :key="link.id" class="mr-4">
-        <NuxtLink :to="link.path">{{ link.name }}</NuxtLink>
+        <nuxt-link :to="link.path">{{ link.name }}</nuxt-link>
       </li>
     </ul>
   </div>
