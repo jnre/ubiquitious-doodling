@@ -8,5 +8,5 @@ export default defineNuxtConfig({
       postcssOptions: require("./postcss.config.js"),
     },
   },
-  buildModules: ['@nuxtjs/mdx'],
+  buildModules: ['@nuxtjs/mdx', "@nuxtjs/svg"],
 });
