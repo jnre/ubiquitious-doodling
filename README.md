@@ -4,7 +4,7 @@ this is build on nuxt3js which is not production ready. the goal here is to use 
 
 - vue 3
 - tailwind
-- mdx
+- md with @nuxt3/content (https://github.com/nuxt/content/issues/974)
 - nuxt 3 (check the web! not for production)
 - trois (threejs wrapper) 
 

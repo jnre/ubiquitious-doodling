@@ -413,6 +413,11 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/vue/-/vue-1.6.22.tgz#8fe19fa4592a9eaa6420979e841f1461655489fe"
   integrity sha512-8L6jC7sCx1AWIiIRlJqAlISR0X3BH9mXetmbQRfXx8BrKWpZNjn7rLbFT7IEHD7P26octtsufTUQIgImyrj7qQ==
 
+"@mdx-js/vue@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@mdx-js/vue/-/vue-2.0.0.tgz#8bfd7603b42960b538ca04799ae7f203ae0f1f39"
+  integrity sha512-xjLWNvaD8vRMuSeOO6Cho2qzbwu6OM/02evjZJn/Z/JBlx+YmmVZU2U2bvGQHNf8YUPr6oH6MyGpVSzcZAKAwQ==
+
 "@netlify/functions@^0.11.0":
   version "0.11.1"
   resolved "https://registry.npmjs.org/@netlify/functions/-/functions-0.11.1.tgz"

@@ -12,6 +12,7 @@ definePageMeta({
 </script>
 
 <template>
+  
   <div>
     <h1>home</h1>
     <ul>
