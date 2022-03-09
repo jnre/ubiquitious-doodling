@@ -6,21 +6,37 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@headlessui/vue": "1.5.0",
+    "@iconify/json": "^1.1.456",
     "@intlify/nuxt3": "^0.1.10",
-    "@nuxtjs/mdx": "0.0.1",
-    "@nuxtjs/svg": "^0.4.0",
-    "@types/node": "^17.0.21",
-    "autoprefixer": "^10.4.2",
-    "nuxt3": "latest",
-    "postcss": "^8.4.7",
-    "tailwindcss": "^3.0.23",
-    "unplugin-icons": "^0.13.3",
-    "unplugin-vue-components": "^0.17.21"
+    "@nuxtjs/eslint-config-typescript": "^7.0.2",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/svg": "^0.3.0",
+    "@pinia/nuxt": "^0.1.8",
+    "@vueuse/nuxt": "7.6.2",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^3.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.3",
+    "nuxt-windicss": "2.2.6",
+    "nuxt3": "3.0.0-27428764.271289c",
+    "pinia": "^2.0.9",
+    "postcss": "8.4.7",
+    "prettier": "^2.5.0",
+    "sass": "1.49.9",
+    "sass-loader": "^12.4.0",
+    "tailwind-config-viewer": "^1.6.3",
+    "typescript": "^4.5.2",
+    "unplugin-icons": "0.13.2",
+    "unplugin-vue-components": "0.17.21"
   },
   "dependencies": {
-    "@mdx-js/vue": "^2.0.0",
-    "three": "^0.138.3",
-    "troisjs": "0.3.4",
-    "vue-i18n": "8"
+    "postcss-loader": "^6.2.1",
+    "three": "0.134",
+    "troisjs": "^0.3.4"
   }
 }

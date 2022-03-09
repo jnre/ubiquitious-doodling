@@ -38,4 +38,4 @@ npx tailwindcss init -p
 ```
 
 
-to take a look at https://github.com/viandwi24/nuxt3-awesome-starter/blob/main/locales/en.yml
+to take a look at https://github.com/viandwi24/nuxt3-awesome-starter
